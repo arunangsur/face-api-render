@@ -1,21 +1,8 @@
-# ====================================================================
-#   requirements.txt (Optimized for Render.com w/ Python 3.9)
-# ====================================================================
-
-# This combination of versions is known to have pre-compiled wheels
-# available on Linux, which avoids the memory-intensive source compilation
-# that was causing your build to fail on Render's free tier.
-
-# Web Framework and Server
-fastapi==0.104.1
-uvicorn[standard]==0.24.0.post1
-
-# Core Machine Learning Libraries
-numpy==1.24.3
-Pillow==9.5.0
-
-# The Face Recognition Stack
-cmake==3.27.7
-dlib==19.24.1
-face-recognition-models==0.3.0
-face_recognition==1.3.0
+fastapi
+uvicorn[standard]
+python-multipart
+numpy
+Pillow
+cmake
+dlib
+face_recognition
